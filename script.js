@@ -55,5 +55,21 @@ const quizData = [
     D: '7:15',
     E: '8:10',
     correct: 'E'
+  }, {
+    question: 'Số nào khác tính chất với các số còn lại? 9678, 4572, 5261, 3527, 6895, 7768',
+    A: '9678',
+    B: '4572',
+    C: '5261',
+    D: '3527',
+    E: '7768',
+    correct: 'D'
+  }, {
+    question: 'Năm ngoái, tỷ lệ lạm phát là 1,2%, nhưng năm nay đã là 4%. Chúng ta có thể kết luận rằng lạm phát đang có xu hướng tăng và tỷ lệ này sẽ còn cao hơn trong năm tới. Điều nào sau đây, nếu đúng, làm suy yếu nghiêm trọng kết luận trên?',
+    A: 'Các số liệu lạm phát được tính toán dựa trên một mẫu dữ liệu kinh tế đại diện hơn là tất cả các dữ liệu có sẵn.',
+    B: 'Năm ngoái, giá dầu giảm đã đưa lạm phát tạm thời xuống dưới mức ổn định hàng năm gần đây là 4%.',
+    C: 'Mức tăng lương của một số công nhân gắn liền với mức độ lạm phát và với tỷ lệ lạm phát là 4% hoặc cao hơn, những khoản tăng lương này tạo thành một lực gây ra lạm phát hơn nữa.',
+    D: 'Tỷ lệ lạm phát 1,2% năm ngoái là mức thấp nhất trong 10 năm.',
+    E: 'Sự can thiệp của chính phủ không thể ảnh hưởng đến tỷ lệ lạm phát ở bất kỳ mức độ đáng kể nào.',
+    correct: 'B'
   }
 ]
