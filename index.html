@@ -7,33 +7,33 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="quiz-container">
+    <div class="quiz-container" id="quiz">
       <div class="quiz-header">
-        <h2>Question text</h2>
+        <h2 id="question">Question text</h2>
         <ul>
           <li>
-            <input type="radio" id="A" name="answer"/>
-            <label for="A">Question</label>
+            <input type="radio" class="answer" id="a" name="answer"/>
+            <label id="a_text" for="a">Question</label>
           </li>
           <li>
-            <input type="radio" id="B" name="answer"/>
-            <label for="B">Question</label>
+            <input type="radio" class="answer" id="b" name="answer"/>
+            <label id="b_text" for="b">Question</label>
           </li>
           <li>
-            <input type="radio" id="C" name="answer"/>
-            <label for="C">Question</label>
+            <input type="radio" class="answer" id="c" name="answer"/>
+            <label id="c_text" for="c">Question</label>
           </li>
           <li>
-            <input type="radio" id="D" name="answer"/>
-            <label for="D">Question</label>
+            <input type="radio" class="answer" id="d" name="answer"/>
+            <label id="d_text" for="d">Question</label>
           </li>
           <li>
-            <input type="radio" id="E" name="answer"/>
-            <label for="E">Question</label>
+            <input type="radio" class="answer" id="e" name="answer"/>
+            <label id="e_text" for="e">Question</label>
           </li>
         </ul>
       </div>
-      <button>Trả lời</button>
+      <button id="submit">Trả lời</button>
     </div>
   </body>
 </html>
